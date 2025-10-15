@@ -1,4 +1,4 @@
-package com.example.application.views;
+package com.example.application.views.inicio;
 
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.applayout.DrawerToggle;
@@ -69,7 +69,7 @@ public class MainLayout extends AppLayout {
 
     private Footer createFooter() {
         Footer layout = new Footer();
-
+        layout.add(new Span("© 2025 Proyecto Integrador - Todos los derechos reservados"));
         return layout;
     }
 
